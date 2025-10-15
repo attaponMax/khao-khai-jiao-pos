@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* simple full-height app reset */
+html, body, #root {
+  height: 100%;
+}
