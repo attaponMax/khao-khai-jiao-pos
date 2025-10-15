@@ -23,24 +23,24 @@ export default function KhaoKhaiJiaoPOS() {
   const paymentMethods = ['เงินสด', 'โอนเงิน', 'QR Code'];
 
   const menuItems = [
-    { id: 1, name: 'ข้าวไข่เจียวธรรมดา', price: 35, category: 'ข้าวไข่เจียว', image: '/images/omelet-normal.png', sales: 45 },
-    { id: 2, name: 'ข้าวไข่เจียวหมูสับ', price: 45, category: 'ข้าวไข่เจียว', image: '/images/omelet-pork.png', sales: 38 },
-    { id: 3, name: 'ข้าวไข่เจียวกุ้ง', price: 55, category: 'ข้าวไข่เจียว', image: '/images/omelet-shrimp.png', sales: 25 },
-    { id: 4, name: 'ข้าวไข่เจียวปู', price: 65, category: 'ข้าวไข่เจียว', image: '/images/omelet-crab.png', sales: 15 },
-    { id: 5, name: 'ข้าวไข่เจียวผักรวม', price: 40, category: 'ข้าวไข่เจียว', image: '/images/omelet-veggie.png', sales: 30 },
-    { id: 6, name: 'ข้าวไข่เจียวพิเศษ', price: 70, category: 'ข้าวไข่เจียว', image: '/images/omelet-special.png', sales: 20 },
-    { id: 7, name: 'น้ำเปล่า', price: 10, category: 'เครื่องดื่ม', image: '/images/drink-water.png', sales: 50 },
-    { id: 8, name: 'โค้ก', price: 15, category: 'เครื่องดื่ม', image: '/images/drink-cola.png', sales: 35 },
-    { id: 9, name: 'น้ำส้ม', price: 20, category: 'เครื่องดื่ม', image: '/images/drink-orange.png', sales: 28 },
-    { id: 10, name: 'น้ำชา', price: 15, category: 'เครื่องดื่ม', image: '/images/drink-tea.png', sales: 32 },
-    { id: 11, name: 'ไข่เจียวเปล่า', price: 20, category: 'ของทานเล่น', image: '/images/snack-plain-omelet.png', sales: 18 },
-    { id: 12, name: 'ไข่ดาว', price: 15, category: 'ของทานเล่น', image: '/images/snack-fried-egg.png', sales: 22 },
-    { id: 13, name: 'ข้าวไข่เจียวชีส', price: 60, category: 'ข้าวไข่เจียว', image: '/images/omelet-cheese.png', sales: 12 },
-    { id: 14, name: 'น้ำแตงโมปั่น', price: 25, category: 'เครื่องดื่ม', image: '/images/drink-watermelon.png', sales: 8 },
-    { id: 15, name: 'ข้าวไข่เจียวแฮม', price: 50, category: 'ข้าวไข่เจียว', image: '/images/omelet-ham.png', sales: 6 },
-    { id: 16, name: 'ไอศกรีมวานิลลา', price: 30, category: 'ของหวาน', image: '/images/dessert-vanilla-icecream.png', sales: 10 },
-    { id: 17, name: 'บัวลอยไข่หวาน', price: 35, category: 'ของหวาน', image: '/images/dessert-bualoy.png', sales: 7 },
-    { id: 18, name: 'ไก่ทอด', price: 10, category: 'ของทานเล่น', image: '/images/snack-fried-chicken.png', sales: 22 },
+    { id: 1, name: 'ข้าวไข่เจียวธรรมดา', price: 35, category: 'ข้าวไข่เจียว', image: '🍳', sales: 45 },
+    { id: 2, name: 'ข้าวไข่เจียวหมูสับ', price: 45, category: 'ข้าวไข่เจียว', image: '🍳', sales: 38 },
+    { id: 3, name: 'ข้าวไข่เจียวกุ้ง', price: 55, category: 'ข้าวไข่เจียว', image: '🍤', sales: 25 },
+    { id: 4, name: 'ข้าวไข่เจียวปู', price: 65, category: 'ข้าวไข่เจียว', image: '🦀', sales: 15 },
+    { id: 5, name: 'ข้าวไข่เจียวผักรวม', price: 40, category: 'ข้าวไข่เจียว', image: '🥬', sales: 30 },
+    { id: 6, name: 'ข้าวไข่เจียวพิเศษ', price: 70, category: 'ข้าวไข่เจียว', image: '⭐', sales: 20 },
+    { id: 7, name: 'น้ำเปล่า', price: 10, category: 'เครื่องดื่ม', image: '💧', sales: 50 },
+    { id: 8, name: 'โค้ก', price: 15, category: 'เครื่องดื่ม', image: '🥤', sales: 35 },
+    { id: 9, name: 'น้ำส้ม', price: 20, category: 'เครื่องดื่ม', image: '🍊', sales: 28 },
+    { id: 10, name: 'น้ำชา', price: 15, category: 'เครื่องดื่ม', image: '🧋', sales: 32 },
+    { id: 11, name: 'ไข่เจียวเปล่า', price: 20, category: 'ของทานเล่น', image: '🍳', sales: 18 },
+    { id: 12, name: 'ไข่ดาว', price: 15, category: 'ของทานเล่น', image: '🍳', sales: 22 },
+    { id: 13, name: 'ข้าวไข่เจียวชีส', price: 60, category: 'ข้าวไข่เจียว', image: '🧀', sales: 12 },
+    { id: 14, name: 'น้ำแตงโมปั่น', price: 25, category: 'เครื่องดื่ม', image: '🍉', sales: 8 },
+    { id: 15, name: 'ข้าวไข่เจียวแฮม', price: 50, category: 'ข้าวไข่เจียว', image: '🥓', sales: 6 },
+    { id: 16, name: 'ไอศกรีมวานิลลา', price: 30, category: 'ของหวาน', image: '🍦', sales: 10 },
+    { id: 17, name: 'บัวลอยไข่หวาน', price: 35, category: 'ของหวาน', image: '🥣', sales: 7 },
+    { id: 18, name: 'ไก่ทอด', price: 10, category: 'ของทานเล่น', image: '🐔', sales: 22 },
   ];
 
   const filteredItems = menuItems.filter(item => {
@@ -193,9 +193,7 @@ export default function KhaoKhaiJiaoPOS() {
                 onClick={() => addToCart(item)}
                 className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all hover:scale-105 active:scale-95"
               >
-                <div className="mb-2 flex justify-center">
-  <img src={item.image} alt={item.name} className="w-20 h-20 object-cover rounded-xl shadow-sm" />
-</div>
+                <div className="text-5xl mb-2">{item.image}</div>
                 <h3 className="font-semibold text-slate-800 mb-1 text-sm">{item.name}</h3>
                 <p className="text-blue-700 font-bold">฿{item.price}</p>
               </button>
